@@ -2,90 +2,97 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Proiect</title>
 </head>
 <body>
-    <table>
-        <tr>
-            <td> <img src="https://img.freepik.com/free-photo/closeup-shot-rhesus-macaque-monkey-eating_181624-36519.jpg" alt="обезьянка" width="200"></td>
-            <td><h1>Григорий Корошану</h1>
+    <div class="container">
+        <div class="info">
+            <img src="35-2-20t.jpg" alt="обезьянка" class="avatar">
+            <div class="info-text">
+            <h1>Григорий Корошану</h1>
                 <p>Я студент обучающий программирование</p>
-                <p><em>Я люблю проводить время со своей девушкой</em></p></td>
-        </tr>
-    </table>
-     
-    <hr>
+                <p>Я люблю проводить время со своей девушкой</p>
+                <h2>Мои социальные сети</h2>
+                <ul>
+                    <a href="https://telegram.com" target="_blank">Telegram</a>
+                    |
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                    |
+                    <a href="https://discord.com" target="_blank">Discord</a>
+                    |
+                    <a href="https://youtube.com" target="_blank">youtube</a>
+                </div>
+        </div>
 
-    <h2>Мои социальный сети</h2>
-<ul>
-    <li>Telegram</li>
-    <li>Instagram</li>
-    <li>Discord</li>
-    <li><a href="https://youtube.com" target="_blank">youtube</a></li>
-</ul>
-
-<hr>
-<table>
-    <tr>
-        <td><h2>Мои хобби</h2>
-            <ol>
-                <li>Играть в видео-игры</li>
-                <li>Программирование</li>
-                <li>Проводить время с девушкой</li>
-                <li>Спорт</li>
-            </ol>
-        </td>
-        <td>
-            <h2>Мои планы на 2025 год</h2>
-    <ul>
-        <li>Выучить программирование сайтов</li>
-        <li>Начать зарабатывать на программировании</li>
-        <li>Завершить первый курс обучения в колледже</li>
-        <li>Накопить на Apple Watch</li>
-        <li>Сделать свою девушку счатливой</li>
-    </ul>
-        </td>
-    </tr>
-</table>
-
-    <hr>
-
-    <table border="1">
-        <tr>
-            <th>Зоведение</th>
-            <th>Место-положение</th>
-            <th>Год</th>
-        </tr>
-        <tr>
-            <td>Gimnaziul</td>
-            <td>Riscani</td>
-            <td>2015-2024</td>
-        </tr>
-        <tr>
-            <td>Colegiu</td>
-            <td>Malinovka</td>
-            <td>2024-2025</td>
-        </tr>
-    </table>
+    <div class="card bg-yellow">
+        <table>
+            <tr>
+                <td>
+                    <h2>Мои хобби</h2>
+                        <ol class="list">
+                            <li>Играть в видео-игры</li>
+                            <li>Программирование</li>
+                            <li>Проводить время с девушкой</li>
+                            <li>Спорт</li>
+                        </ol>
+                </td>
+            </tr>
+        </table>
+    </div>
     
-    <hr>
-    
-    <h2>Связаться сомной</h2>
-    <form>
-        <label for="name">Ваше имя</label>
-        <input type="text" id="name" placeholder="Вводите имя">
-    <br>
-        <label for="email">Ваше имя</label>
-        <input type="email" id="email" placeholder="Вводите email">
-    <br>        
-        <label for="text">Ваше сообщение</label>
-        <br>
-        <textarea id="text" rows="2" cols="15"></textarea>
-    <br>
-        <input type="submit">
-    </form>
+    <div class="card bg-green">
 
-    <hr>
+        <h2>Мои планы на 2025 год</h2>
+        <ul>
+            <li>Выучить программирование сайтов</li>
+            <li>Начать зарабатывать на программировании</li>
+            <li>Завершить первый курс обучения в колледже</li>
+            <li>Накопить на Apple Watch</li>
+            <li>Сделать свою девушку счатливой</li>
+        </ul>
 
+    </div>
+
+
+
+    <div class="card bg-blue">
+        <table class="table">
+            <tr>
+                <h2>Учеба</h2>
+            </tr>
+            <tr>
+                <td>Gimnaziul</td>
+                <td>Riscani</td>
+                <td>2015-2024</td>
+            </tr>
+            <tr>
+                <td>Colegiu</td>
+                <td>Malinovka</td>
+                <td>2024-2025</td>
+            </tr>
+        </table>
+    </div>
+      
+    <div class="contact bg-red">
+        <h2>Связаться сомной</h2>
+        <form>
+        <div class="form-group">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" placeholder="Вводите имя">
+        </div>
+        <div class="form-group">
+            <label for="email">Ваш email</label>
+            <input type="email" id="email" placeholder="Вводите email">
+        </div> 
+        <div class="form-group">       
+            <label for="text">Ваше сообщение</label>
+            <textarea id="text" rows="2" cols="15"></textarea>
+        </div>
+            <input type="submit">
+        </form>
+    </div>
+        
+    </div>
 </body>
 </html>
